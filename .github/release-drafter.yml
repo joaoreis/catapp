@@ -1,7 +1,6 @@
 name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: '$NEXT_PATCH_VERSION'
 change-template: '- $TITLE $BODY (#$NUMBER)'
-
 categories:
   - title: '🐛 Bug Fixes'
     labels:
