@@ -1,2 +1,3 @@
+include ':core:arch'
 include ':app'
 rootProject.name = "catapp"
