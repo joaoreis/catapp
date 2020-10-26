@@ -2,7 +2,7 @@ name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: '$NEXT_PATCH_VERSION'
 change-template: '- $TITLE $BODY (#$NUMBER)'
 branches:
-  - 'testci'
+  - 'main'
 categories:
   - title: '🐛 Bug Fixes'
     labels:
