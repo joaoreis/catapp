@@ -9,7 +9,7 @@ categories:
       - 'bug'
   - title: '🧰 Maintenance'
     labels:
-      - 'chore'
+      - 'test'
       - 'dependencies'
 
 template: |
