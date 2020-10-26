@@ -1,16 +1,6 @@
-name-template: 'v$NEXT_PATCH_VERSION'
-tag-template: '$NEXT_PATCH_VERSION'
-change-template: '- $TITLE $BODY (#$NUMBER)'
-categories:
-  - title: '🐛 Bug Fixes'
-    labels:
-      - 'bug'
-  - title: '🧰 Maintenance'
-    labels:
-      - 'test'
-      - 'dependencies'
-  - title: Everything else
-
+name-template: 'v$RESOLVED_VERSION'
+tag-template: '$RESOLVED_VERSION'
+change-template: '- $TITLE - @$AUTHOR (#$NUMBER)'
 version-resolver:
   major:
     labels:
