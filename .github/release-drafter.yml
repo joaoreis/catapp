@@ -16,4 +16,3 @@ version-resolver:
 template: |
   ## Changes
   $CHANGES
-  ## Compare
