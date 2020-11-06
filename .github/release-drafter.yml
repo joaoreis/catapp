@@ -1,4 +1,4 @@
-name-template: 'v$RESOLVED_VERSION'
+name-template: '$major.$minor/$RESOLVED_VERSION'
 tag-template: '$RESOLVED_VERSION'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 version-resolver:
@@ -14,6 +14,5 @@ version-resolver:
   default: patch
 
 template: |
-  ## Changes
+  ## Mudanças
   $CHANGES
-  ## Compare
