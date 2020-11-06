@@ -14,5 +14,5 @@ version-resolver:
   default: patch
 
 template: |
-  ## Mudanças
+  ## Mudanças 1
   $CHANGES
